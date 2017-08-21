@@ -13,7 +13,7 @@
 
 #### 問題1：請問「圖片1」，第 28 行的 ```+(NSString *)getManufacturerName;``` 以及第 33 行的 ```-(id)init;``` 中 + 和 - 的用法有什麼差別？
 
-#### 問題2：承問題1，請完成「圖片2」第 20 行的 ```+(NSString *)getManufacturerName;``` 的內容。
+#### 問題2：承問題1，請完成「圖片2」第 20 行的 ```+(NSString *)getManufacturerName;``` 的內容。（PS：廠商名稱可以用「圖片2」定義好的 NSString 來使用。）
 
 
 圖片3: SpaceScene01.h
