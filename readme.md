@@ -28,9 +28,9 @@
 
 
 
-#### 問題4：「圖片2」 的第12行，應該也可以寫成 ```#define``` 吧？雖然寫成 ```#define``` 也是可行的，但使用 ```static NSString *const``` 的好處是什麼？讓我們有會偏好使用 ```static NSString *const```更勝過  ```#define``` ？ （難度：★★★☆）
+#### 問題4：「圖片2」 的第12行，應該也可以寫成 ```#define``` 吧？雖然寫成 ```#define``` 也是可行的，但使用 ```static NSString *const``` 的好處是什麼？讓我們有會偏好使用 ```static NSString *const```更勝過  ```#define``` ？ 
 
-#### 問題4.1：（加分題）同上，那麼反過來，使用 ```#define``` 也有他的好處，如果知道原因的話，說明一下使用 ```#define``` 的好處。（提示：遊戲製作上常常會用到的技巧。）（難度：★★★★）
+#### 問題4.1：（加分題）同上，那麼反過來，使用 ```#define``` 也有他的好處，如果知道原因的話，說明一下使用 ```#define``` 的好處。（提示：遊戲製作上常常會用到的技巧。）
 
 ### Protocol、Delegate、Extension（難度：★★☆☆）：
 
@@ -145,9 +145,13 @@ static NSString *const kManufacturer = "NASA ©";
 
 #### 問題3：請問什麼是 delegate？什麼是 id ？為何 delegate 要用 weak？
 
+#### 問題3.1：（加分題）除了 delegate （代理）外，其實還有 Objective-C 的 block 的方式來解偶，可以簡單描述一下要怎麼達成？相較於 delegate 使用 block 又有什麼優缺點？
 
-#### 問題4：你知道 objective-c 的 Category 嗎？簡單的說明一下 Category 、以及他可以達成什麼樣的功效？你什麼時候會想要使用 Category。
+#### 問題3.2：（加分題）同上、那麼使用 delegate 又有什麼好處、與壞處（與 Block 相比較的話）？
 
-#### 問題4.1：（加分題）除了 delegate （代理）外，其實還有 Block 的方式來解偶，可以簡單描述一下要怎麼達成？使用 Block 又有什麼優缺點？
+#### 問題4：你知道 objective-c 的 category 嗎？簡單的說明一下 category 、以及他可以達成什麼樣的功效？你什麼時候會想要使用 category。
 
-#### 問題4.2：（加分題）同上、那麼使用 delegate 又有什麼好處、與壞處（與 Block 相比較的話）？
+#### 問題4.1：（加分題）Swift 的 extension ( 也就是 Obj-C 的 category ) 跟 Objective-C 使用 category 兩個其實都能達成相同的作用，但 swift 的 extension 使用有什麼的限制？該限制有沒有什麼方式來解決？
+
+
+
